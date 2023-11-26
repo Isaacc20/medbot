@@ -8,13 +8,19 @@ import {
 import { Provider } from 'react-redux';
 import { store } from './state/store.ts';
 
+import 'bootstrap/dist/css/bootstrap.min.css'
 import NotFound from './pages/NotFound.tsx';
 import Home from './pages/Home.tsx';
+import Signup from './pages/Signup.tsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "signup",
+    element: <Signup />
   },
   
   {

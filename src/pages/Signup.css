@@ -1,0 +1,30 @@
+.div{
+    height: 100vh !important;
+}
+.input input{
+    border: none;
+    background-color: #D3DDE8;
+    outline: none;
+    color: black !important;
+}
+.input input::placeholder, .input label{
+    color: #3F9FFF;
+    /* padding: 10px; */
+    font-size: 15px;
+    font-weight: bolder;
+}
+.input button{
+    background-color: #3F9FFF;
+    border: none;
+}
+
+@media (max-width: 800px) {
+    .input input, .input button, .input{
+        width: 100% !important;
+    }
+}
+@media (max-width: 450px) {
+    .form{
+        width: 100% !important;
+    }
+}
